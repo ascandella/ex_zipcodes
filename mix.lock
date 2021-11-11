@@ -1,0 +1,4 @@
+%{
+  "jason": {:hex, :jason, "1.0.1", "ef108e64c6e086364b9f15b0073cf794061670af8f331d545d7308c0ba2e67f9", [:mix], [{:decimal, "~> 1.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "51f68891a38d5186ba6a4c0c148f59b33d20b068168976fd25bdfc0f57347f0b"},
+  "poison": {:hex, :poison, "5.0.0", "d2b54589ab4157bbb82ec2050757779bfed724463a544b6e20d79855a9e43b24", [:mix], [{:decimal, "~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "11dc6117c501b80c62a7594f941d043982a1bd05a1184280c0d9166eb4d8d3fc"},
+}
