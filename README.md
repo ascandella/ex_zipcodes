@@ -14,3 +14,8 @@ def deps do
   ]
 end
 ```
+
+## Data Source
+
+Uses a slimmed down version of the data provided in millbj9's
+[US-Zip-Codes-JSON](https://github.com/millbj92/US-Zip-Codes-JSON) repository
