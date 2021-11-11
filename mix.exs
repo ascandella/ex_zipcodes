@@ -8,6 +8,7 @@ defmodule ExZipcodes.MixProject do
       app: :ex_zipcodes,
       version: "0.1.0",
       elixir: "~> 1.11",
+      description: "Zip code lookup utility, turns Zip into City/State",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       package: package(),
@@ -24,7 +25,7 @@ defmodule ExZipcodes.MixProject do
   end
 
   defp deps do
-    [{:jason, "~> 1.0.0"}]
+    [{:jason, "~> 1.0.0"}, {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}]
   end
 
   defp package() do
