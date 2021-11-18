@@ -13,7 +13,7 @@ dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:ex_zipcodes, "~> 0.1.0"}
+    {:ex_zipcodes, "~> 0.1.1"}
   ]
 end
 ```

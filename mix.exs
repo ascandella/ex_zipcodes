@@ -2,11 +2,12 @@ defmodule ExZipcodes.MixProject do
   use Mix.Project
 
   @source_url "https://github.com/ascandella/ex_zipcodes"
+  @version "0.1.1"
 
   def project do
     [
       app: :ex_zipcodes,
-      version: "0.1.0",
+      version: @version,
       elixir: "~> 1.11",
       description: "Zip code lookup utility, turns Zip into City/State",
       start_permanent: Mix.env() == :prod,
