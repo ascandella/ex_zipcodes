@@ -25,7 +25,7 @@ defmodule ExZipcodes.MixProject do
   end
 
   defp deps do
-    [{:jason, "~> 1.0.0"}, {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}]
+    [{:jason, "~> 1.0"}, {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}]
   end
 
   defp package() do

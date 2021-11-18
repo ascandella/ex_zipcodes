@@ -1,5 +1,8 @@
 # ExZipcodes
 
+[![Module Version](https://img.shields.io/hexpm/v/ex_zipcodes.svg)](https://hex.pm/packages/ex_zipcodes)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/ex_zipcodes/)
+
 Look up US Zip codes and returns the City and State.
 
 ## Installation
